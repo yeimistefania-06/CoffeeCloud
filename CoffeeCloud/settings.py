@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'reportes',
 ]
 
-AUTH_USER_MODEL= 'seguridad.usuario'
+AUTH_USER_MODEL = 'seguridad.Usuario'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
